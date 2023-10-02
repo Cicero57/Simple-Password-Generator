@@ -3,6 +3,9 @@
     background-image:url("images/pic2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
  }
 main-box{
     display: flex;
@@ -48,11 +51,14 @@ h1{
     backdrop-filter: blur(20px);
 }
 
-footer{
- position: sticky;
-}
+
 
 span{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(250, 13, 13, 0.945);
 }
+
+footer{
+    position: sticky;
+    margin-top: auto;
+   }
