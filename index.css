@@ -1,11 +1,11 @@
 
+
  body{
-    background-image:url("images/pic2.jpg");
+    background-image: url("images/pic1.jpg");
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
  }
 main-box{
     display: flex;
@@ -58,7 +58,10 @@ span{
     color: rgba(250, 13, 13, 0.945);
 }
 
-footer{
-    position: sticky;
-    margin-top: auto;
-   }
+#footer-box{
+position: absolute;
+background-color: rgba(235, 215, 215, 0.02);
+  color: rgb(16, 168, 238);
+  font-weight: bold;
+  text-align: center;
+}
