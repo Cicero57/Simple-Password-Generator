@@ -1,0 +1,58 @@
+
+ body{
+    background-image:url("images/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#display-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.btn{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+}
+
+#card{
+    display: inline-block;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#text-p{
+    font-family: serif;
+}
+
+#main-div{
+    backdrop-filter: blur(20px);
+}
+
+footer{
+ position: sticky;
+}
+
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(250, 13, 13, 0.945);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple online Password Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+   
+</head>
+<body>
+    <div class="container py-3" id="main-div">
+      
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Simple online Password Generator</h1>
+            <p class="fs-5 text-body-secondary" id="text-p">Instantly generate a secure, 4 digit random password with this Free, online web application.
+                No matter what device or app you’re using, all your passwords are automatically generated, <span>fully randomized</span> and completely safe for your everyday use.</p>
+          </div>
+    
+      
+        <main>
+          <div id="main-box" "row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal"></h4>
+                </div>
+                <div id="card" class="card-body">
+                  <h1 id="display-main" class="card-title pricing-card-title"> **** </h1>
+                  <P id="text">Click the button below to generate password</P>
+                  <button class="btn btn-secondary rounded-pill px-3" type="button" onclick="GeneratePassword()">Generate password</button>
+                </div>
+              </div>
+            </div>
+           
+        </main>
+      
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-12 col-md">
+
+              <small class="d-block mb-3 text-body-secondary">© 2023 Okoye Victor. All right reserved.</small>
+          
+        </footer>
+      </div>
+      <script src="./index.js"></script>
+</body>
+</html>
+
+
